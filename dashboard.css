@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dashboard-image{
+    width: 2rem;
+    filter: invert(13%) sepia(15%) saturate(1858%) hue-rotate(146deg) brightness(95%) contrast(89%);
+
+}
+
+.sidebar__content img{
+    width: 1.5rem;
+    filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+}
