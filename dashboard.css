@@ -14,3 +14,19 @@
     width: 1.5rem;
     filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
 }
+
+.dashboard-sidebar__button__home img{
+    width: 1rem;
+    filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+    
+}
+
+.dashboard-sidebar__button__exit img{
+    width: 1rem;
+    filter: invert(14%) sepia(99%) saturate(3739%) hue-rotate(353deg) brightness(96%) contrast(107%);
+}
+
+.link img{
+    width: 1rem;
+    filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+}
