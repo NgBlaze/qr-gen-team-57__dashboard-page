@@ -2,11 +2,47 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    
+    
+}
+
+.dashboard-container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.dashboard__sidebar{
+    margin: 1rem auto;
+    
+}
+
+.sidebar__content{
+    margin: 2rem auto 0;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #163037;
+    
 }
 
 .dashboard-image{
     width: 2rem;
     filter: invert(13%) sepia(15%) saturate(1858%) hue-rotate(146deg) brightness(95%) contrast(89%);
+   
+    
 
 }
 
@@ -15,10 +51,28 @@
     filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
 }
 
+.dashboard-sidebar__button__home{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid #81B6C4;
+    background-color: white;
+    border-radius: 5px;
+    color: #81B6C4;
+}
+
 .dashboard-sidebar__button__home img{
     width: 1rem;
     filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
     
+}
+
+.dashboard-sidebar__button__exit{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 1px solid #81B6C4;
+    background-color: white;
+    border-radius: 5px;
+    color: red;
 }
 
 .dashboard-sidebar__button__exit img{
