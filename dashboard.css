@@ -6,6 +6,7 @@
     font-weight: 700;
     
     
+    
 }
 
 .dashboard-container{
@@ -58,11 +59,13 @@ a{
     background-color: white;
     border-radius: 5px;
     color: #81B6C4;
+    cursor: pointer;
 }
 
 .dashboard-sidebar__button__home img{
     width: 1rem;
     filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+    cursor: pointer;
     
 }
 
@@ -73,11 +76,13 @@ a{
     background-color: white;
     border-radius: 5px;
     color: red;
+    cursor: pointer;
 }
 
 .dashboard-sidebar__button__exit img{
     width: 1rem;
     filter: invert(14%) sepia(99%) saturate(3739%) hue-rotate(353deg) brightness(96%) contrast(107%);
+    
 }
 
 .dashboard-main__contents{
@@ -118,6 +123,10 @@ a{
     
 }
 
+.link-container .link{
+    padding: 1rem;
+}
+
 .dashboard-form input{
     margin: 1.5rem 5rem;
     padding: 0.5rem 1rem;
@@ -133,4 +142,5 @@ a{
     border: 1px solid #81B6C4;
     border-radius: 5px;
     background-color: #81B6C4;
+    cursor: pointer;
 }
