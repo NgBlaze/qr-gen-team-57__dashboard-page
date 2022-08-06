@@ -145,6 +145,10 @@ a{
     cursor: pointer;
 }
 
+.download-content{
+    display: none;
+}
+
 
 @media(max-width: 1200px){
 
@@ -181,10 +185,30 @@ a{
 
     .generate-btn{
         margin: 0.8rem auto auto;
+        
     }
 
     .link img{
         width: 0.5rem;
         filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+    }
+
+    .download-content{
+        margin: 2rem auto 2.5rem;
+        line-height: 2.5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .download-content img{
+        width: 5rem;
+        filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
+    }
+
+    .download-content p{
+        font-size: 0.6rem;
     }
 }
