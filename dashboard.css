@@ -7,6 +7,7 @@
     
     
     
+    
 }
 
 .dashboard-container{
@@ -159,6 +160,7 @@ a{
     .dashboard-container{
         display: block;
         margin: auto;
+        text-align: center;
 
     }
 
@@ -172,7 +174,8 @@ a{
 
     .link-container{
         width: 355px;
-        
+        align-items: center;
+        margin: auto auto 0;
     }
 
     .link-container .link{
@@ -189,7 +192,13 @@ a{
         text-align: center;
     }
 
+    .dashboard-main__contents .dashboard-form label{
+        /* display: flex;
+        align-items: flex-start; */
+    }
+
     .dashboard-main__contents input{
+        align-items: center;
         margin: 1rem auto;
 
         width: 260px;
@@ -222,11 +231,11 @@ a{
     }
 
     .download-content img{
-        width: 0.2rem;
+        width: 5rem;
         filter: invert(78%) sepia(12%) saturate(941%) hue-rotate(146deg) brightness(90%) contrast(81%);
     }
 
     .download-content p{
-        font-size: 0.1rem;
+        font-size: 0.8rem;
     }
 }
