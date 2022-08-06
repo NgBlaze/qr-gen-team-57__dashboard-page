@@ -153,9 +153,6 @@ a{
 
 @media(max-width: 1200px){
 
-    html{
-        margin: auto;
-    }
 
     .dashboard-container{
         display: block;
